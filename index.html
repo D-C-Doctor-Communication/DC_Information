@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,18 +50,24 @@
         body.loaded>div.preloader {
             animation: hidePreloader .5s linear .5s forwards;
         }
+
+        .video {
+            margin: 200px;
+        }
     </style>
     <script>
-        window.addEventListener("load", function() {
-            setTimeout(function() {
+        window.addEventListener("load", function () {
+            setTimeout(function () {
                 document.querySelector('body').classList.add('loaded');
             }, 300);
         });
     </script>
 </head>
+
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/quick-website.js"></script>
+
     <body>
         <!-- 네비게이션 -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -70,7 +77,8 @@
                     <img alt="Image placeholder" src="assets/img/APP_LOGO.png" id="navbar-logo">
                 </a>
                 <!-- Toggler -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- Collapse -->
@@ -90,12 +98,14 @@
                         </li>
                     </ul>
                     <!-- 사용방법 -->
-                    <a class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3" href="https://github.com/webpixels/quick-website-ui-kit-demo/archive/master.zip">
+                    <a class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3"
+                        href="https://github.com/webpixels/quick-website-ui-kit-demo/archive/master.zip">
                         사용방법 보러가기
                     </a>
                     <!-- Mobile button -->
                     <div class="d-lg-none text-center">
-                        <a href="https://webpixels.io/themes/quick-website-ui-kit" class="btn btn-block btn-sm btn-warning">See more details</a>
+                        <a href="https://webpixels.io/themes/quick-website-ui-kit"
+                            class="btn btn-block btn-sm btn-warning">See more details</a>
                     </div>
                 </div>
             </div>
@@ -123,7 +133,8 @@
                         </p>
                         <!-- 플레이스토어 이동 -->
                         <div class="text-center text-md-left mt-5">
-                            <a href="https://webpixels.io/themes/quick-free-bootstrap-theme" class="btn btn-primary btn-icon" target="_blank">
+                            <a href="https://webpixels.io/themes/quick-free-bootstrap-theme"
+                                class="btn btn-primary btn-icon" target="_blank">
                                 <span class="btn-inner--text">Play Store</span>
                                 <span class="btn-inner--icon"><i data-feather="chevron-right"></i></span>
                             </a>
@@ -132,7 +143,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- 기능 소개 -->
         <p id="one"></p>
         <section class="slice slice-lg">
@@ -149,7 +160,8 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <div>
-                                            <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <div
+                                                class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
                                                 <i class="fas fa-file-invoice"></i>
                                             </div>
                                         </div>
@@ -161,7 +173,8 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <div>
-                                            <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <div
+                                                class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
                                                 <i class="fas fa-store-alt"></i>
                                             </div>
                                         </div>
@@ -175,7 +188,8 @@
                         <div class="col-lg-6 order-lg-1">
                             <div class="card mb-0 mr-lg-5">
                                 <div class="card-body p-2">
-                                    <img alt="Image placeholder" src="assets/img/theme/light/screen-1-1000x800.jpg" class="img-fluid shadow rounded">
+                                    <img alt="Image placeholder" src="assets/img/theme/light/screen-1-1000x800.jpg"
+                                        class="img-fluid shadow rounded">
                                 </div>
                             </div>
                         </div>
@@ -193,7 +207,8 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <div>
-                                            <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <div
+                                                class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
                                                 <i class="fas fa-file-invoice"></i>
                                             </div>
                                         </div>
@@ -205,7 +220,8 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <div>
-                                            <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <div
+                                                class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
                                                 <i class="fas fa-store-alt"></i>
                                             </div>
                                         </div>
@@ -219,7 +235,8 @@
                         <div class="col-lg-6">
                             <div class="card mb-0 ml-lg-5">
                                 <div class="card-body p-2">
-                                    <img alt="Image placeholder" src="assets/img/theme/light/screen-2-1000x800.jpg" class="img-fluid shadow rounded">
+                                    <img alt="Image placeholder" src="assets/img/theme/light/screen-2-1000x800.jpg"
+                                        class="img-fluid shadow rounded">
                                 </div>
                             </div>
                         </div>
@@ -237,7 +254,8 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <div>
-                                            <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <div
+                                                class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
                                                 <i class="fas fa-file-invoice"></i>
                                             </div>
                                         </div>
@@ -249,7 +267,8 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <div>
-                                            <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <div
+                                                class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
                                                 <i class="fas fa-store-alt"></i>
                                             </div>
                                         </div>
@@ -263,7 +282,8 @@
                         <div class="col-lg-6 order-lg-1">
                             <div class="card mb-0 mr-lg-5">
                                 <div class="card-body p-2">
-                                    <img alt="Image placeholder" src="assets/img/theme/light/screen-1-1000x800.jpg" class="img-fluid shadow rounded">
+                                    <img alt="Image placeholder" src="assets/img/theme/light/screen-1-1000x800.jpg"
+                                        class="img-fluid shadow rounded">
                                 </div>
                             </div>
                         </div>
@@ -275,13 +295,15 @@
                         <div class="col-lg-5">
                             <h5 class="h3">의사와의 만남</h5>
                             <p class="lead my-4">
-                                기록된 증상들을 터치 한번으로 쉽게 모아보세요. 해당 통증이 언제부터 시작되었는지, 어떠한 양상이었는지 등의 모든 데이터를 제공하여 병원에 방문했을 때, 유용하게 사용할 수 있습니다.
+                                기록된 증상들을 터치 한번으로 쉽게 모아보세요. 해당 통증이 언제부터 시작되었는지, 어떠한 양상이었는지 등의 모든 데이터를 제공하여 병원에 방문했을 때,
+                                유용하게 사용할 수 있습니다.
                             </p>
                             <ul class="list-unstyled mb-0">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <div>
-                                            <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <div
+                                                class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
                                                 <i class="fas fa-file-invoice"></i>
                                             </div>
                                         </div>
@@ -293,7 +315,8 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <div>
-                                            <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <div
+                                                class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
                                                 <i class="fas fa-store-alt"></i>
                                             </div>
                                         </div>
@@ -305,7 +328,8 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <div>
-                                            <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
+                                            <div
+                                                class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
                                                 <i class="fas fa-store-alt"></i>
                                             </div>
                                         </div>
@@ -319,7 +343,8 @@
                         <div class="col-lg-6">
                             <div class="card mb-0 ml-lg-5">
                                 <div class="card-body p-2">
-                                    <img alt="Image placeholder" src="assets/img/theme/light/screen-2-1000x800.jpg" class="img-fluid shadow rounded">
+                                    <img alt="Image placeholder" src="assets/img/theme/light/screen-2-1000x800.jpg"
+                                        class="img-fluid shadow rounded">
                                 </div>
                             </div>
                         </div>
@@ -327,7 +352,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- 기술 소개 -->
         <p id="two"></p>
         <section class="slice slice-lg">
@@ -418,11 +443,12 @@
                         <div class="card">
                             <div class="card-body pb-5">
                                 <div class="pt-4 pb-5">
-                                    <img src="assets/img/svg/illustrations/illustration-6.svg" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                                    <img src="assets/img/svg/illustrations/illustration-6.svg"
+                                        class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
                                 </div>
                                 <h5 class="h4 lh-130 mb-0">윤채원</h5>
-                                <p class="text-muted mb-2">Firebase Developer</p>
-                                <p class="text-muted mb-0">만나 뵙게 되어 반갑습니다. 현재 구직 중 입니다. s2033@e-mirim.hs.kr로 연락주세요 😊</p>
+                                <p class="text-muted mb-2">Firebase Developer, App Designer</p>
+                                <p class="text-muted mb-0">"입력을 받았다. 처리해서 보낸다. 삐리삐리" 🤖</p>
                             </div>
                         </div>
                     </div>
@@ -430,7 +456,8 @@
                         <div class="card">
                             <div class="card-body pb-5">
                                 <div class="pt-4 pb-5">
-                                    <img src="assets/img/svg/illustrations/illustration-7.svg" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                                    <img src="assets/img/svg/illustrations/illustration-7.svg"
+                                        class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
                                 </div>
                                 <h5 class="h4 lh-130 mb-0">황소은</h5>
                                 <p class="text-muted mb-2">Android Developer</p>
@@ -442,7 +469,8 @@
                         <div class="card">
                             <div class="card-body pb-5">
                                 <div class="pt-4 pb-5">
-                                    <img src="assets/img/svg/illustrations/illustration-5.svg" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                                    <img src="assets/img/svg/illustrations/illustration-5.svg"
+                                        class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
                                 </div>
                                 <h5 class="h4 lh-130 mb-0">김하늘</h5>
                                 <p class="text-muted mb-2">Android Developer</p>
@@ -454,7 +482,8 @@
                         <div class="card">
                             <div class="card-body pb-5">
                                 <div class="pt-4 pb-5">
-                                    <img src="assets/img/svg/illustrations/illustration-5.svg" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                                    <img src="assets/img/svg/illustrations/illustration-5.svg"
+                                        class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
                                 </div>
                                 <h5 class="h4 lh-130 mb-0">유혜은</h5>
                                 <p class="text-muted mb-2">App Designer</p>
@@ -465,12 +494,24 @@
                 </div>
             </div>
         </section>
+
+        <!-- youtube -->
+        <center>
+            <iframe class="video" width="1200" height="630" src="https://www.youtube.com/embed/pib1RioFDNQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </center>
+
         <!-- 푸터 -->
         <footer class="position-relative" id="footer-main">
             <div class="footer pt-lg-7 footer-dark bg-dark">
                 <!-- SVG shape -->
                 <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
-                    <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve" class=" fill-section-secondary">
+                    <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px"
+                        viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve"
+                        class=" fill-section-secondary">
                         <polygon points="2560 0 2560 100 0 100"></polygon>
                     </svg>
                 </div>
@@ -483,15 +524,17 @@
                                 <img alt="Image placeholder" src="img/logo.png" id="footer-logo" style="width:80px">
                             </a>
                             <!-- Webpixels' mission -->
-                            <p class="mt-4 text-sm opacity-8 pr-lg-4">미림여자정보과학고등학교<br>김하늘, 윤채원, 황소은, 유혜은 제작<br>2021 스마틴 앱 챌린지(STAC) 우수상 수상 </p>
-                            
+                            <p class="mt-4 text-sm opacity-8 pr-lg-4">미림여자정보과학고등학교<br>김하늘, 윤채원, 황소은, 유혜은 제작<br>2021 스마틴
+                                앱 챌린지(STAC) 우수상 수상 </p>
+
                         </div>
                     </div>
                     <hr class="divider divider-fade divider-dark my-4">
                     <div class="row align-items-center justify-content-md-between pb-4">
                         <div class="col-md-6">
                             <div class="copyright text-sm font-weight-bold text-center text-md-left">
-                                &copy; 2020 <a href="https://webpixels.io" class="font-weight-bold" target="_blank">Webpixels</a>. All rights reserved
+                                &copy; 2020 <a href="https://webpixels.io" class="font-weight-bold"
+                                    target="_blank">Webpixels</a>. All rights reserved
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -533,4 +576,5 @@
         </script>
     </body>
 </body>
+
 </html>
